@@ -1,0 +1,372 @@
+@charset "utf-8";
+
+@media ( max-width: 768px ) {
+  body { color: black; }
+}
+/********** jumbotron begin**********/
+.jumbotron-bg {
+  background-color: #f3e2b8;
+  text-shadow: black 0.2em 0.2 em 0.2 em;
+  color:white;
+  padding: 100px 0;
+}
+.jumbotron {
+  background-size:auto;
+  padding:auto 0;
+}
+.jumbotron_animation {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+.designer {
+  color:black;
+  font-size:80px;
+  padding:10px 0 0 0;
+  text-align: left;
+  left:100px;
+}
+.developer {
+  color:#150592;
+  font-size:60px;
+  text-align: left;
+  left:100px;
+}
+.dreamer {
+  color:#fff;
+  font-size:40px;
+  text-align: left;
+  left:100px;
+}
+.party {
+  color:#000;
+  font-size:40px;
+  text-align: left;
+  left:100px;
+}
+.food {
+  color:#fff;
+  font-size:60px;
+  text-align: left;
+  left:100px;
+}
+.pointer {cursor: pointer;}
+
+.plate { width: 561px; height: 438px; background: #fff; color: #000;
+  margin:37px auto 0; padding: 80px 0 0 50px ; font-size: 24px;}
+
+.plate .text {
+  position:relative;
+  display:block;
+  left:0;
+  bottom:0;
+  color:#000;
+  font-size:40px;
+}
+.submitButton  {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  width: 235px;
+  height:78px;
+  margin-top: 50px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: #ffffff;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+.submitButton:hover {
+  background: #000000;
+  text-decoration: none;
+  color: #fff;
+}
+input{
+    height: 100px;
+    border-width:0px 0px 2px 0px;
+    border-bottom: 3px solid #000;
+}
+#shift {
+padding-top: 25px;
+}
+h1 {
+font-size: 50px;
+text-align: left;
+font-family: 'helvetica';
+line-height: 20px;
+text-shadow: 0 0 100px rgba(0,0,0,.4);
+}
+.sizer {
+font-size: 5em;
+}
+
+/********** jumbotron end **********/
+
+/********** interests begin**********/
+#columns{
+        column-width:350px;
+        column-gap: 15px;
+        margin:60px 0;
+      }
+      #columns figure{
+        display: inline-block;
+        margin:0;
+        margin-bottom: 15px;
+        padding:10px;
+      }
+      #columns figure img{
+        width:100%;
+        border:1px solid rgba(0,0,0,0);
+      }
+      #columns figure figcaption{
+        padding:10px;
+        margin-top:11px;
+        text-align: center;
+      }
+      .text01 {
+        font: bold 15px Inconsolata;
+      }
+      .text02 {
+        font: italic bold 15px Georgia, serif;
+      }
+      .text03 {
+        font: bold 15px Arial, serif;
+      }
+      .text04 {
+        font: italic bold 15px Georgia, serif;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .wall-item {
+        display: block;
+        margin: 0 0 30px 0;
+        padding: 12px;
+        background: white;
+        border-radius: 3px;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+        transition: all 220ms;
+      }
+
+      .wall-item:hover {
+        box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
+        transform: translateY(-5px);
+        transition: all 220ms;
+      }
+
+      .wall-item > img {
+        display: block;
+        width: 100%;
+        margin: 0 0 24px 0;
+      }
+
+      .wall-item h2 {
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 0 0 12px 0;
+      }
+      .wall-item iframe{
+        width:350px;
+        height:254px;
+        display: block;
+        width: 100%;
+        margin: 0 0 24px 0;
+      }
+
+      .wall {
+        display: block;
+        /* position: relative; */
+      }
+
+      .wall-column {
+        display: block;
+        position: relative;
+        width: 33.333333%;
+        float: left;
+        padding: 0 12px;
+
+      }
+      @media (max-width: 640px) {
+
+      .wall-column { width: 50%; }
+      }
+      @media (max-width: 480px) {
+
+      .wall-column {
+        width: auto;
+        float: none;
+      }
+      }
+
+
+/********** interests end **********/
+
+/********** works beggin **********/
+.workbg{
+  background-color: #000;
+  background-size:auto;
+  text-shadow: black 0.2em 0.2 em 0.2 em;
+  color:white;
+  padding-bottom: 50px;
+}
+.lotteryWebsite{
+  margin:90px;
+  left:0; right:0; margin-left:auto; margin-right:auto;
+  word-break:normal;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.aboutlottery{
+  vertical-align: middle;
+  margin-top: 100px;
+
+}
+.circle{
+  width:350px;
+  height:350px;
+  border-radius: 50%;
+  background: #00d3d3;
+  background: url(images/lotteryWebsite01.png) center 100% no-repeat;
+}
+/********** works end **********/
+
+/********** skills begin **********/
+.titleCenter {
+  text-align: center;
+  font-weight: bold;
+  padding:80px 0 10px 0;
+}
+.titleCenter_hr {
+  text-align: center;
+  width: 50px;
+  border-bottom: 3px solid #5f6cd9;
+  left:0; right:0; margin-left:auto; margin-right:auto;
+}
+.bgColorSkills{
+  background: #fffeea;
+  background-size:auto;
+  padding:auto 0;
+}
+/********** skills end **********/
+
+/********** email begin **********/
+.emailTitleCenter {
+  font-size: 38pt;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", serif;
+  width: 509px;
+  text-align: center;
+  padding:100px 0 33px 0;
+  margin-bottom:100px;
+  border-bottom: 3px solid #5f6cd9;
+  left:0; right:0; margin-left:auto; margin-right:auto;
+}
+.inputTitle {
+  position: left;
+  font-size: 15pt;
+  width: 509px;
+  padding:20px 0 10px 0;
+}
+.inputLine {
+  width: 509px;
+  height: 30px;
+  padding:10px 0;
+  border-bottom: 3px solid #5f6cd9;
+}
+.emailButton  {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+  margin:60px 0 0 0;
+}
+.submitButton:hover {
+  background: #000000;
+  text-decoration: none;
+  color: #fff;
+}
+/********** email end **********/
+
+/********** footer begin **********/
+.footerBox {
+  margin:162px 0 0 0;
+  padding:30px 0;
+  background-color:#000000;
+  color:#ffffff;
+  background-size:auto;
+}
+.social-icon {
+  position:relative;
+  display:inline-block;
+}
+.social-icon p{
+  position:relative;
+  display:inline-block;
+  font-size: 20px;
+  font-weight:bold;
+}
+.social-icon-space{
+  position:relative;
+  padding:0 15px;
+  color: :#fff;
+}
+.footer {
+  background: #061D25;
+  padding: 10px 0;
+}
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;
+}
+
+
+.bottom-nav  {
+  display:inline-block;
+}
+.bottom-nav ul {
+  display:inline-block;
+}
+.bottom-nav li {
+  display:inline-block;
+  margin:0 20px 0 0;
+  font-size: 18px;
+  text-indent: 0;
+}
+
+.bottom-nav ul li.first-child {
+  text-indent: -30px;
+}
+.copyright {
+  font-size: 18px;
+  padding-top:80px;
+}
+.whodesigned {
+  font-size: 18px;
+  padding:10px 0 0 0;
+}
+
+/********** footer end **********/
